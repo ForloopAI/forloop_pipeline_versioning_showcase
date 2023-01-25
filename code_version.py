@@ -1,5 +1,5 @@
 from forloop import ForloopClient
-from forloop.nodes import Start, NewVariable, OpenBrowser, LoadWebsite, Wait, ExtractPath
+from forloop.nodes import Start, NewVariable, OpenBrowser, LoadWebsite, Wait, ExtractXPath
 
 fc = ForloopClient(project_key="test_user@forloop.ai")
 
